@@ -1,0 +1,3 @@
+This zip file contains the results from running the modeified weight TILES algorithm on 5 datasets (Moreno train, lesmis, asociar, astro-ph, and cond-mat 2005). For each dataset, the results are from running the modified TILES with thresholds 0, 0.1, 0.3, 0.5, 0.7, 0.9, and 1. For each of them, it contains the extraction_status, graph, merging, and strong-communities (which is what is being processed).
+
+The process_results.py file processes the results and retrieves the different community sizes and overlap for each dataset as the threshold changes. The output is figures that demonstrate these results.
